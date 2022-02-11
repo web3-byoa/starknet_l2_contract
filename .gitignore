@@ -1,0 +1,14 @@
+./lib/**
+./lib
+./include
+./include/**
+./bin
+./bin/**
+.pytest_cache
+.pytest_cache/**
+__pycache__
+__pycache__/**
+share/**
+lib/**
+bin/**
+__pycache__/**

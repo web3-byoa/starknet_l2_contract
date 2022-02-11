@@ -1,0 +1,147 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            }
+        ],
+        "name": "get_app_len",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "type": "felt"
+            }
+        ],
+        "name": "get_app_array",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "app_index",
+                "type": "felt"
+            }
+        ],
+        "name": "get_app_param_count",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "app_index",
+                "type": "felt"
+            },
+            {
+                "name": "param_index",
+                "type": "felt"
+            }
+        ],
+        "name": "get_app_param_value_array",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "(felt, felt)"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "app_id",
+                "type": "felt"
+            }
+        ],
+        "name": "add_app_id",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "app_index",
+                "type": "felt"
+            },
+            {
+                "name": "param_index",
+                "type": "felt"
+            },
+            {
+                "name": "param_id",
+                "type": "felt"
+            },
+            {
+                "name": "param_value",
+                "type": "felt"
+            }
+        ],
+        "name": "set_param_at_index",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "app_index",
+                "type": "felt"
+            },
+            {
+                "name": "param_id",
+                "type": "felt"
+            },
+            {
+                "name": "param_value",
+                "type": "felt"
+            }
+        ],
+        "name": "add_param",
+        "outputs": [],
+        "type": "function"
+    }
+]
