@@ -15,8 +15,7 @@ starknet-compile contract.cairo --output contract_compiled.json --abi contract_a
 ## Testing
 Ensure that the `cairo-compile` tool is installed before attempting to run the tests.
 ```
-cairo-compile test.cairo --output test_compiled.json
-cairo-run --program=test_compiled.json --print_output --print_info --relocate_prints
+pytest test_contract.py
 ```
 
 ## Running
