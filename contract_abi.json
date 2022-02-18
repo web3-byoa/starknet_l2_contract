@@ -27,6 +27,27 @@
                 "type": "felt"
             }
         ],
+        "name": "get_app_installation",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "type": "felt"
+            }
+        ],
         "name": "get_app_array",
         "outputs": [
             {
@@ -81,6 +102,21 @@
             }
         ],
         "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "index",
+                "type": "felt"
+            },
+            {
+                "name": "installed",
+                "type": "felt"
+            }
+        ],
+        "name": "toggle_install_app_by_index",
+        "outputs": [],
         "type": "function"
     },
     {
