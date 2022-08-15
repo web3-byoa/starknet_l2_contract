@@ -12,3 +12,4 @@ share/**
 lib/**
 bin/**
 __pycache__/**
+contract_compiled_*.json
